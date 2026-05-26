@@ -337,6 +337,20 @@ h3 {
   color: var(--ink);
 }
 
+.nav-links .nav-cta {
+  min-height: 34px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.nav-links .nav-cta:hover {
+  background: #005bb5;
+  color: #ffffff;
+}
+
 .lang-switcher {
   display: inline-flex;
   align-items: center;
@@ -714,6 +728,11 @@ h3 {
 
   .nav-links a {
     padding: 8px 0;
+  }
+
+  .nav-links .nav-cta {
+    justify-self: start;
+    padding: 8px 14px;
   }
 
   .split,
